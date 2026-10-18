@@ -4,7 +4,8 @@ import re
 from pathlib import Path
 from plexapi.myplex import MyPlexAccount
 from plexapi.server import PlexServer
-from plexapi.video import Show, Episode
+from plexapi.video import Show, Episode, Season
+from plexapi.base import MediaContainer
 from typing import List
 
 # plex account and server info
@@ -45,8 +46,12 @@ def resolve_metadata_from_episode_list(season: int, episode: int):
             return None
 
 
-def resolve_metadata_from_episode(series: str, season: int, episode: int):
-    pass
+def resolve_metadata_from_episode(season: int, episode: int):
+    for key, value in SERIES_DATA['episodes'].items():
+        if value['season'] == season and value['episode'] == episode:
+            return key, value
+
+    return None, None
 
 
 def main():
@@ -55,7 +60,8 @@ def main():
         print("Enter the option you'd like to use below. Enter any other key to cancel.")
         print(f"1. Dry run status: {'yes' if dry_run is True else 'no'}. Dry run means no actual files or Plex metadata wil be modified. Only example output will be shown.")
         print('2. Manage One Pace')
-        print("3. Delete configuration file. Useful if you've entered incorrect information and don't want to modify it by hand.")
+        print('3. Manage Concentrated Bleach')
+        print("4. Delete configuration file. Useful if you've entered incorrect information and don't want to modify it by hand.")
         response = input("Option: ")
         clear_terminal()
         match response:
@@ -64,6 +70,8 @@ def main():
             case '2':
                 pace_menu()
             case '3':
+                cb_menu()
+            case '4':
                 delete_config()
             case _:
                 break
@@ -102,6 +110,33 @@ def pace_menu():
                 main()
 
 
+def cb_menu():
+    global SERIES_DATA
+    with open('series/concentrated-bleach/series.json') as file:
+        SERIES_DATA = json.load(file)
+
+    while True:
+        clear_terminal()
+        print("Enter the option you'd like to use below. Enter any other key to cancel.")
+        print("1. Scan for and organize edited Bleach episodes.")
+        print("2. Apply edited Bleach episode metadata to Plex. Please only do this after you've verified that your edited episodes are present in your Plex server.")
+        print("3. Apply custom thumbnails authored by the creator of Concentrated Bleach. By default, Plex will simply use ones that it automatically generates. Sometimes they're kind of bad.")
+        print("4. Apply metadata to the TYBW arc. Only select this if those episodes are present under a Season 5 folder")
+        response = input("Option: ")
+        clear_terminal()
+        match response:
+            case '1':
+                organize_files()
+            case '2':
+                apply_plex_metadata()
+            case '3':
+                apply_episode_thumbnails()
+            case '4':
+                apply_tybw_metadata()
+            case _:
+                main()
+
+
 def ask_dry_run():
     global dry_run
     dry_run = not dry_run
@@ -122,7 +157,6 @@ def organize_files():
                 continue
 
             final_name = file
-
             if SERIES_DATA['series_match_type'] == 'season_episodes':
                 season_index = 0
                 for season in SERIES_DATA['seasons']:
@@ -149,9 +183,28 @@ def organize_files():
                             final_name = final_name.replace(season, f'{season} 01')
 
                     break
+            elif SERIES_DATA['series_match_type'] == 'absolute_episodes':
+                # preemptively remove dub and sub from episode titles for metadata matching since it's present in various edits
+                temp_file = file.replace(' (dub)', '')
+                temp_file = temp_file.replace(' (sub)', '')
 
-            elif SERIES_DATA['series_match_type'] == 'filenames':
-                pass
+                episode = SERIES_DATA['episodes'].get(temp_file)
+                if episode is None:
+                    continue
+
+                season_number = episode['season']
+                episode_number = episode['episode']
+                episode_title = episode['title']
+                absolute_episode = episode['absolute_episode']
+
+                abbreviation = SERIES_DATA['abbreviation']
+                if SERIES_DATA['name'] == 'Concentrated Bleach' and file.find('Hollowed Bleach') != -1:
+                    # abbreviation override for CB's companion edit, Hollowed Bleach
+                    abbreviation = 'HB'
+
+                season_index = season_number - 1
+                extension = Path(file).suffix
+                final_name = f"{SERIES_DATA['name']} S{season_number:02d}E{episode_number:02d} - {episode_title} ({abbreviation} {absolute_episode}){extension}"
 
             files_moved = move_episode_file(dest_path, path, file, final_name, season_index, files_moved)
 
@@ -164,7 +217,7 @@ def apply_plex_metadata():
     if plex_auth() is False:
         return
 
-    print(f'Successfully found {SERIES_DATA['name']} series. Searching for episodes to apply metadata to.')
+    print(f"Successfully found {SERIES_DATA['name']} series. Searching for episodes to apply metadata to.")
     episodes_changed = 0
     episodes: Episode = series.episodes()
     for episode in episodes:
@@ -182,14 +235,18 @@ def apply_plex_metadata():
                 # quietly skip Onigashima Paced Wano episodes
                 continue
 
-            print(f'Could not find any {SERIES_DATA['name']} metadata for {episode.seasonEpisode.upper()}')
+            if SERIES_DATA['name'] == 'Concentrated Bleach' and episode.seasonNumber == 5:
+                # quietly skip episodes from the TYBW arc
+                continue
+
+            print(f"Could not find any {SERIES_DATA['name']} metadata for {episode.seasonEpisode.upper()}")
             continue
 
         changed = apply_metadata_to_episode(episode, metadata)
         if changed is True:
             episodes_changed += 1
 
-    print(f'Applied metadata to {episodes_changed} {SERIES_DATA['name']} episodes.')
+    print(f"Applied metadata to {episodes_changed} {SERIES_DATA['name']} episodes.")
     input('Press enter to continue')
 
 
@@ -201,12 +258,12 @@ def apply_plex_posters():
     poster_path = f"{asset_path}/series_poster.{SERIES_DATA['poster_extension']}"
     if os.path.exists(poster_path) is True:
         series.uploadPoster(filepath=poster_path)
-        print(f'Applied series poster to {SERIES_DATA['name']}')
+        print(f"Applied series poster to {SERIES_DATA['name']}")
 
     background_path = f"{asset_path}/background.{SERIES_DATA['background_extension']}"
     if os.path.exists(background_path) is True:
         series.uploadArt(filepath=background_path)
-        print(f'Applied background to {SERIES_DATA['name']}')
+        print(f"Applied background to {SERIES_DATA['name']}")
 
     for season in series.seasons():
         season_poster_path = f"{SERIES_DATA['asset_path']}/posters/{season.index:02d}.{SERIES_DATA['poster_extension']}"
@@ -224,7 +281,22 @@ def apply_episode_thumbnails():
     episodes: Episode = series.episodes()
     asset_path = SERIES_DATA['asset_path']
     for episode in episodes:
-        thumbnail_path = f"{asset_path}/thumbnails/{episode.seasonNumber:02d}/{episode.episodeNumber:02d}.{SERIES_DATA['thumbnail_extension']}"
+        if SERIES_DATA['series_match_type'] == 'season_episodes':
+            thumbnail_path = f"{asset_path}/thumbnails/{episode.seasonNumber:02d}/{episode.episodeNumber:02d}.{SERIES_DATA['thumbnail_extension']}"
+        elif SERIES_DATA['series_match_type'] == 'absolute_episodes':
+            original_filename, metadata = resolve_metadata_from_episode(episode.seasonNumber, episode.episodeNumber)
+            if metadata is None:
+                continue
+
+            thumbnail_folder = 'thumbnails'
+            extension = SERIES_DATA['thumbnail_extension']
+            if SERIES_DATA['name'] == 'Concentrated Bleach' and original_filename.find('Hollowed Bleach') != -1:
+                # override for Hollowed Bleach episodes
+                thumbnail_folder = 'hbthumbnails'
+                extension = 'jpg'
+
+            thumbnail_path = f"{asset_path}/{thumbnail_folder}/{metadata['absolute_episode']}.{extension}"
+
         if os.path.exists(thumbnail_path):
             print(f'Applied custom thumbnail to {episode.seasonEpisode.upper()}')
             if dry_run is False:
@@ -380,12 +452,12 @@ def move_episode_file(dest_path: str, source_path: str, file: str, newfile: str,
     if dest_path is None:
         dest_path = SERIES_DATA['name']
         if os.path.exists(SERIES_DATA['name']) is False:
-            print(f'creating root series directory for {SERIES_DATA['name']}')
+            print(f"creating root series directory for {SERIES_DATA['name']}")
             if dry_run is False:
                 os.makedirs(SERIES_DATA['name'])
 
     season_number = season_index + 1
-    season_path = f'Season {season_number:02d}'
+    season_path = 'Specials' if season_number == 0 else f'Season {season_number:02d}'
 
     if os.path.exists(f'{dest_path}/{season_path}') is False:
         print(f'creating season folder for season {season_number}')
@@ -395,7 +467,7 @@ def move_episode_file(dest_path: str, source_path: str, file: str, newfile: str,
     final_file = Path(f'{dest_path}/{season_path}/{newfile}')
     if os.path.exists(final_file):
         # quietly skip over already existing episodes
-        return False
+        return files_moved
 
     # copy (hardlink) episode to its final destination
     print(f'copying {file} to {season_path}')
@@ -404,6 +476,42 @@ def move_episode_file(dest_path: str, source_path: str, file: str, newfile: str,
 
     files_moved += 1
     return files_moved
+
+
+def apply_tybw_metadata():
+    if plex_auth() is False:
+        return
+
+    season: Season = series.seasons()[-1]  # assume the last element in the list is TYBW
+    episodes: MediaContainer[Episode] = season.episodes()
+    episodes_changed = 0
+
+    for episode in episodes:
+        metadata = SERIES_DATA['tybw'][episode.episodeNumber - 1]
+
+        changed = False
+        if episode.title != metadata['title']:
+            episode.editTitle(metadata['title'])
+            episode.editSortTitle(metadata['title'])
+            print(f"Applied episode title to {episode.seasonEpisode.upper()} ({metadata['title']})")
+            changed = True
+
+        newsummary = f"{metadata['summary']}\nManga Chapters: {metadata['chapters']}"
+        if episode.summary != newsummary:
+            episode.editSummary(newsummary)
+            print(f"Applied episode summary to {episode.seasonEpisode.upper()}")
+            changed = True
+
+        if episode.originallyAvailableAt is None or episode.originallyAvailableAt.strftime('%Y-%m-%d') != metadata['original_airdate']:
+            episode.editOriginallyAvailable(metadata['original_airdate'])
+            print(f'Applied release date to {episode.seasonEpisode.upper()}')
+            changed = True
+
+        if changed is True:
+            episodes_changed += 1
+
+    print(f'Applied metadata to {episodes_changed} edited Bleach episode(s).')
+    input('Press enter to continue.')
 
 
 def plex_auth():
@@ -427,10 +535,10 @@ def plex_auth():
 
     global series
     if series is None:
-        print(f'Searching for {SERIES_DATA['name']} TV series')
-        series = plex_server.search(f'{SERIES_DATA['name']}', 'show')[0]
+        print(f"Searching for {SERIES_DATA['name']} TV series")
+        series = plex_server.search(SERIES_DATA['name'], 'show')[0]
         if series is None:
-            print(f'Unable to find {SERIES_DATA['name']} TV series. Pleae add it to your plex library and populate it with edited episodes.')
+            print(f"Unable to find {SERIES_DATA['name']} TV series. Pleae add it to your plex library and populate it with edited episodes.")
             return False
 
     return True

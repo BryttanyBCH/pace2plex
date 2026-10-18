@@ -1,0 +1,1426 @@
+{
+    "name": "Concentrated Bleach",
+    "series_match_type": "absolute_episodes",
+    "asset_path": "./series/concentrated-bleach/assets",
+    "thumbnail_extension": "png",
+    "abbreviation": "CB",
+    "seasons":
+    [
+        "Specials",
+        "Substitute Soul Reaper",
+        "Soul Society",
+        "Arrancar",
+        "Lost Agent"
+    ],
+    "episodes":
+    {
+        "01 - Death and Strawberry.mkv":
+        {
+            "season": 1,
+            "episode": 1,
+            "absolute_episode": 1,
+            "title": "Death and Strawberry",
+            "summary": "Ichigo Kurosaki has been able to see ghosts for as long as he can remember. Rukia Kuchiki is a soul reaper sent to Karakura Town to reap the souls of monsters. When one such monster forces the two onto the same path, they must work together to protect the people of the town.",
+            "original_airdate": "2004-10-05",
+            "chapters": "001-002",
+            "episodes": "001-002"
+        },
+        "02 - Starter.mkv":
+        {
+            "season": 1,
+            "episode": 2,
+            "absolute_episode": 2,
+            "title": "Starter",
+            "summary": "One of Ichigo's classmates, Orihime Inoue, is being targeted by a hollow! But it isn't random; He seems to have a strange interest in specifically her...",
+            "original_airdate": "2004-10-12",
+            "chapters": "003-006",
+            "episodes": "002-003"
+        },
+        "03 - The Pink-Cheeked Cockatiel.mkv":
+        {
+            "season": 1,
+            "episode": 3,
+            "absolute_episode": 3,
+            "title": "The Pink-Cheeked Cockatiel",
+            "summary": "Chad is given a bird that can magically talk! But this bird seems to bring misfortune wherever it goes...",
+            "original_airdate": "2004-10-26",
+            "chapters": "007-012",
+            "episodes": "004-005"
+        },
+        "04 - Bad Standard.mkv":
+        {
+            "season": 1,
+            "episode": 4,
+            "absolute_episode": 4,
+            "title": "Bad Standard",
+            "summary": "Rukia finds a way to put a replacement soul in Ichigo's body while he's a soul reaper! They tell him to act normal while they're gone, but he seems to have other plans...",
+            "original_airdate": "2004-11-09",
+            "chapters": "013-017",
+            "episodes": "006-007"
+        },
+        "05 - June 17th -memories in the rain-.mkv":
+        {
+            "season": 1,
+            "episode": 5,
+            "absolute_episode": 5,
+            "title": "June 17th -memories in the rain-",
+            "summary": "On the anniversary of his mother's death, Ichigo and his family takes their annual visit to her grave. While there, he encounters a familiar face that brings about memories of his past...",
+            "original_airdate": "2004-11-23",
+            "chapters": "018-025",
+            "episodes": "008-009"
+        },
+        "06 - Spirits AREN'T Always With Us.mkv":
+        {
+            "season": 1,
+            "episode": 6,
+            "absolute_episode": 6,
+            "title": "Spirits AREN'T Always With Us",
+            "summary": "Japan's most popular ghost hunting show is broadcasting live from Karakura Town! Fights will only get more intense from now on, so take this opportunity to unwind.",
+            "original_airdate": "2004-12-07",
+            "chapters": "027-032",
+            "episodes": "010"
+        },
+        "07 - Quincy Archer Hates You.mkv":
+        {
+            "season": 1,
+            "episode": 7,
+            "absolute_episode": 7,
+            "title": "Quincy Archer Hates You",
+            "summary": "In the wake of Don Kanonji's show, a mysterious archer who has been lying in wait finally reveals himself...",
+            "original_airdate": "2004-12-14",
+            "chapters": "033-036",
+            "episodes": "011"
+        },
+        "08 - Crossing the Rubicon.mkv":
+        {
+            "season": 1,
+            "episode": 8,
+            "absolute_episode": 8,
+            "title": "Crossing the Rubicon",
+            "summary": "Uryu proclaims the rules of his duel with Ichigo and it threatens to endanger everyone in Karakura Town! The die has already been cast; the only option left is to cross the Rubicon...",
+            "original_airdate": "2004-12-21",
+            "chapters": "036-043",
+            "episodes": "012-013"
+        },
+        "09 - Menos Grande.mkv":
+        {
+            "season": 1,
+            "episode": 9,
+            "absolute_episode": 9,
+            "title": "Menos Grande",
+            "summary": "Ichigo and Uryu's duel nears its end as hordes of hollows invade Karakura Town!",
+            "original_airdate": "2004-12-28",
+            "chapters": "044-050",
+            "episodes": "013-014, 295"
+        },
+        "10 - The Death Trilogy Overture.mkv":
+        {
+            "season": 2,
+            "episode": 1,
+            "absolute_episode": 10,
+            "title": "The Death Trilogy Overture",
+            "summary": "It won't take long for the Soul Society to learn about the previous day's events...",
+            "original_airdate": "2005-01-18",
+            "chapters": "026, 051-057",
+            "episodes": "015-017"
+        },
+        "11 - blank.mkv":
+        {
+            "season": 2,
+            "episode": 2,
+            "absolute_episode": 11,
+            "title": "blank",
+            "summary": "Ichigo and Uryu fought their hardest but even they were powerless to save Rukia. Urahara saves them from death and makes an offer. Everyone prepares to take Rukia back.",
+            "original_airdate": "2005-02-01",
+            "chapters": "057-062",
+            "episodes": "017-018"
+        },
+        "12 - The Blade and Me.mkv":
+        {
+            "season": 2,
+            "episode": 3,
+            "absolute_episode": 12,
+            "title": "The Blade and Me",
+            "summary": "Ichigo's about to become a hollow! Time to become a true soul reaper!",
+            "original_airdate": "2005-02-15",
+            "chapters": "062-067",
+            "episodes": "019-020"
+        },
+        "13 - Our Last Summer Vacation.mkv":
+        {
+            "season": 2,
+            "episode": 4,
+            "absolute_episode": 13,
+            "title": "Our Last Summer Vacation",
+            "summary": "Rukia's rescue mission commences! Invade the Soul Society!!",
+            "original_airdate": "2005-02-22",
+            "chapters": "067-075",
+            "episodes": "020-022"
+        },
+        "14 - The Shooting Star Project.mkv":
+        {
+            "season": 2,
+            "episode": 5,
+            "absolute_episode": 14,
+            "title": "The Shooting Star Project",
+            "summary": "After getting thrown out of the Seireitei, the gang needs to find another way in. As Yoruichi suggests someone who could help, a delinquent boar rider bursts onto the scene.",
+            "original_airdate": "2005-03-08",
+            "chapters": "076-079",
+            "episodes": "022-023"
+        },
+        "15 - INTRUDERZ.mkv":
+        {
+            "season": 2,
+            "episode": 6,
+            "absolute_episode": 15,
+            "title": "INTRUDERZ",
+            "summary": "With a plan set, the gang prepares to invade the court. Meanwhile, Gin comes under the suspicion of the other captains.",
+            "original_airdate": "2005-03-22",
+            "chapters": "080-085",
+            "episodes": "024-026"
+        },
+        "16 - So Unlucky We Are.mkv":
+        {
+            "season": 2,
+            "episode": 7,
+            "absolute_episode": 16,
+            "title": "So Unlucky We Are",
+            "summary": "Ichigo and friends have entered the Seireitei at last! But there's no time to relax: it's already time to fight!",
+            "original_airdate": "2005-04-05",
+            "chapters": "086-090",
+            "episodes": "026-028"
+        },
+        "17 - Steer for the Star.mkv":
+        {
+            "season": 2,
+            "episode": 8,
+            "absolute_episode": 17,
+            "title": "Steer for the Star",
+            "summary": "Uryu faces off against his first true soul reaper opponent. Meanwhile, Ichigo and Ganju come across a meek soul reaper who can help them find Rukia.",
+            "original_airdate": "2005-04-19",
+            "chapters": "091-094",
+            "episodes": "028-030"
+        },
+        "18 - A Star and a Stray Dog.mkv":
+        {
+            "season": 2,
+            "episode": 9,
+            "absolute_episode": 18,
+            "title": "A Star and a Stray Dog",
+            "summary": "Ichigo and Renji fight again at the steps of the Court Guard barracks!",
+            "original_airdate": "2005-05-03",
+            "chapters": "095-098",
+            "episodes": "030-032"
+        },
+        "19 - Flower on the Precipice.mkv":
+        {
+            "season": 2,
+            "episode": 10,
+            "absolute_episode": 19,
+            "title": "Flower on the Precipice",
+            "summary": "While Ichigo heals in the aftermath of the fight with Renji, Aizen makes his move.",
+            "original_airdate": "2005-06-01",
+            "chapters": "099-101",
+            "episodes": "034-035"
+        },
+        "20 - Spring, Spring, Meets the Tiger.mkv":
+        {
+            "season": 2,
+            "episode": 11,
+            "absolute_episode": 20,
+            "title": "Spring, Spring, Meets the Tiger",
+            "summary": "As Ichigo's group heads to the Repentance Palace, they finally come across the battle-hungry captain of the eleventh division! Meanwhile, Chad crosses paths with the fun-loving captain of the eighth.",
+            "original_airdate": "2005-06-07",
+            "chapters": "102-103, 105-108",
+            "episodes": "035-038"
+        },
+        "21 - The Undead.mkv":
+        {
+            "season": 2,
+            "episode": 12,
+            "absolute_episode": 21,
+            "title": "The Undead",
+            "summary": "Ichigo faces off against the unkillable captain of the eleventh division!",
+            "original_airdate": "2005-06-14",
+            "chapters": "104-105, 108-110",
+            "episodes": "036, 038-039"
+        },
+        "22 - Black and White.mkv":
+        {
+            "season": 2,
+            "episode": 13,
+            "absolute_episode": 22,
+            "title": "Black and White",
+            "summary": "Before he can finish his fight with Kenpachi, Ichigo gets tested by Zangetsu to see if he's worthy of his sword.",
+            "original_airdate": "2005-07-05",
+            "chapters": "110-115",
+            "episodes": "039-040"
+        },
+        "23 - Remnant.mkv":
+        {
+            "season": 2,
+            "episode": 14,
+            "absolute_episode": 23,
+            "title": "Remnant",
+            "summary": "Ganju and Hanataro finally reach Rukia! But while Ganju is forced to recall a scene from his past, a certain captain appears to block their only way out...",
+            "original_airdate": "2005-07-12",
+            "chapters": "115-119",
+            "episodes": "040-042"
+        },
+        "24 - In Sane We Trust.mkv":
+        {
+            "season": 2,
+            "episode": 15,
+            "absolute_episode": 24,
+            "title": "In Sane We Trust",
+            "summary": "After a close call, Yoruichi introduces a way for Ichigo to finally beat Byakuya. Meanwhile, Uryu and Orihime make their own attempt to reach Rukia.",
+            "original_airdate": "2005-07-26",
+            "chapters": "118-121",
+            "episodes": "042-043"
+        },
+        "25 - Insanity and Genius.mkv":
+        {
+            "season": 2,
+            "episode": 16,
+            "absolute_episode": 25,
+            "title": "Insanity and Genius",
+            "summary": "Uryu faces off against the crazed captain of the twelfth division, Mayuri Kurotsuchi!",
+            "original_airdate": "2005-08-02",
+            "chapters": "122-127",
+            "episodes": "043-045"
+        },
+        "26 - The Straying Stars.mkv":
+        {
+            "season": 2,
+            "episode": 17,
+            "absolute_episode": 26,
+            "title": "The Straying Stars",
+            "summary": "Everything comes to a head as the key players in the conspiracy cross paths once again. The second act of the arc reaches its climax.",
+            "original_airdate": "2005-08-16",
+            "chapters": "127-132, -17",
+            "episodes": "045-048"
+        },
+        "27 - memories in the rain2.mkv":
+        {
+            "season": 2,
+            "episode": 18,
+            "absolute_episode": 27,
+            "title": "memories in the rain2",
+            "summary": "After being told that she'll be executed tomorrow, Rukia thinks back to the day that changed her life.",
+            "original_airdate": "2005-09-06",
+            "chapters": "128, 133-136",
+            "episodes": "045, 048-049"
+        },
+        "27.5 - Meanwhile, in the Living World.mkv":
+        {
+            "season": 0,
+            "episode": 1,
+            "absolute_episode": 27.5,
+            "title": "Meanwhile, in the Living World",
+            "summary": "Before heading to the final act of the arc, let's check up on everyone back home!",
+            "original_airdate": "2005-09-13",
+            "chapters": "088.5, 124-158",
+            "episodes": "033, 054-062"
+        },
+        "28 - Surrounding Clutch.mkv":
+        {
+            "season": 2,
+            "episode": 19,
+            "absolute_episode": 28,
+            "title": "Surrounding Clutch",
+            "summary": "On the day of Rukia's execution, everyone begins to make their moves.",
+            "original_airdate": "2005-09-27",
+            "chapters": "137-139",
+            "episodes": "051"
+        },
+        "29 - Bite at the Moon.mkv":
+        {
+            "season": 2,
+            "episode": 20,
+            "absolute_episode": 29,
+            "title": "Bite at the Moon",
+            "summary": "On his way to the execution, Renji has a fated duel.",
+            "original_airdate": "2005-10-04",
+            "chapters": "140-145",
+            "episodes": "052-053"
+        },
+        "30 - Countdown to the End.mkv":
+        {
+            "season": 2,
+            "episode": 21,
+            "absolute_episode": 30,
+            "title": "Countdown to the End",
+            "summary": "Rukia's execution is rapidly approaching! With her allies either busy, out of commission, or far from Sokyoku Hill, will anyone be able to stop it in time?",
+            "original_airdate": "2005-10-04",
+            "chapters": "145-150",
+            "episodes": "053-054, 290"
+        },
+        "31 - The Deathberry Returns.mkv":
+        {
+            "season": 2,
+            "episode": 22,
+            "absolute_episode": 31,
+            "title": "The Deathberry Returns",
+            "summary": "Ichigo's finally here to stop the execution!",
+            "original_airdate": "2005-10-18",
+            "chapters": "151-156",
+            "episodes": "054-056"
+        },
+        "32 - Cat and Hornet.mkv":
+        {
+            "season": 2,
+            "episode": 23,
+            "absolute_episode": 32,
+            "title": "Cat and Hornet",
+            "summary": "Master vs. retainer! A grudge match a century in the making!",
+            "original_airdate": "2005-11-01",
+            "chapters": "154, 157-159",
+            "episodes": "056-057"
+        },
+        "33 - Battle on Guillotine Hill.mkv":
+        {
+            "season": 2,
+            "episode": 24,
+            "absolute_episode": 33,
+            "title": "Battle on Guillotine Hill",
+            "summary": "It's finally time for the long-awaited rematch! Ichigo vs. Byakuya!",
+            "original_airdate": "2005-11-08",
+            "chapters": "160-167",
+            "episodes": "057-059"
+        },
+        "34 - end of hypnosis.mkv":
+        {
+            "season": 2,
+            "episode": 25,
+            "absolute_episode": 34,
+            "title": "end of hypnosis",
+            "summary": "All is revealed.",
+            "original_airdate": "2005-12-06",
+            "chapters": "167-178",
+            "episodes": "060-062"
+        },
+        "35 - AND THE RAIN LEFT OFF.mkv":
+        {
+            "season": 2,
+            "episode": 26,
+            "absolute_episode": 35,
+            "title": "AND THE RAIN LEFT OFF",
+            "summary": "The Soul Society recovers in the aftermath of the insurrection.",
+            "original_airdate": "2005-12-20",
+            "chapters": "179-182",
+            "episodes": "062-063"
+        },
+        "35.5 (0) - the rotator; the sand.mkv":
+        {
+            "season": 0,
+            "episode": 2,
+            "absolute_episode": "35.5 (0)",
+            "title": "the rotator; the sand",
+            "summary": "The world turns, and we are powerless to stop it. All we can do is hope for a way to change our fates.",
+            "original_airdate": "2007-01-04",
+            "chapters": "0 side A + side B",
+            "episodes": "109"
+        },
+        "36 - Hush.mkv":
+        {
+            "season": 3,
+            "episode": 1,
+            "absolute_episode": 36,
+            "title": "Hush",
+            "summary": "It's the start of a new semester! Alongside it, a new student—who seems to be interested in Ichigo—transfers into Karakura High!",
+            "original_airdate": "2007-01-10",
+            "chapters": "183-188",
+            "episodes": "064, 110-112"
+        },
+        "37 - Conquistadores.mkv":
+        {
+            "season": 3,
+            "episode": 2,
+            "absolute_episode": 37,
+            "title": "Conquistadores",
+            "summary": "As Ichigo and Uryu grapple with their respective offers, two new foes arrive in Karakura Town.",
+            "original_airdate": "2007-01-24",
+            "chapters": "189-194",
+            "episodes": "112-114"
+        },
+        "38 - Death and Strawberry (Reprise).mkv":
+        {
+            "season": 3,
+            "episode": 3,
+            "absolute_episode": 38,
+            "title": "Death and Strawberry (Reprise)",
+            "summary": "Reinforcements from the Soul Society arrive to help Ichigo fight the arrancar.",
+            "original_airdate": "2007-02-07",
+            "chapters": "195-199",
+            "episodes": "114-116"
+        },
+        "39 - Night of Sledgehammer.mkv":
+        {
+            "season": 3,
+            "episode": 4,
+            "absolute_episode": 39,
+            "title": "Night of Sledgehammer",
+            "summary": "Grimmjow and his fracción begin their attack on Karakura Town.",
+            "original_airdate": "2007-02-21",
+            "chapters": "200-203",
+            "episodes": "116-118"
+        },
+        "40 - ¡Mala Suerte!.mkv":
+        {
+            "season": 3,
+            "episode": 5,
+            "absolute_episode": 40,
+            "title": "¡Mala Suerte!",
+            "summary": "Ikkaku's luck is tested against the thirteenth arrancar, Edorad Leones!",
+            "original_airdate": "2007-03-07",
+            "chapters": "203-206",
+            "episodes": "118-119"
+        },
+        "41 - Turn the True Power On.mkv":
+        {
+            "season": 3,
+            "episode": 6,
+            "absolute_episode": 41,
+            "title": "Turn the True Power On",
+            "summary": "The Hitsugaya Advance Team is on the ropes as the battle with Grimmjow and his fracción continues!",
+            "original_airdate": "2007-03-28",
+            "chapters": "207-213",
+            "episodes": "120-122"
+        },
+        "42 - Immanent God Blues.mkv":
+        {
+            "season": 3,
+            "episode": 7,
+            "absolute_episode": 42,
+            "title": "Immanent God Blues",
+            "summary": "After realizing the arrancar’s true strength, everyone begins preparing to get stronger.",
+            "original_airdate": "2007-04-18",
+            "chapters": "214-217",
+            "episodes": "122-123"
+        },
+        "43 - No Shaking Throne.mkv":
+        {
+            "season": 3,
+            "episode": 8,
+            "absolute_episode": 43,
+            "title": "No Shaking Throne",
+            "summary": "Ichigo fights his inner hollow to control his hollowfication!",
+            "original_airdate": "2007-04-25",
+            "chapters": "217-222",
+            "episodes": "123-125"
+        },
+        "44 - Slip Into My Barrier.mkv":
+        {
+            "season": 3,
+            "episode": 9,
+            "absolute_episode": 44,
+            "title": "Slip Into My Barrier",
+            "summary": "News comes from the Soul Society: Aizen’s true goal has been uncovered.",
+            "original_airdate": "2007-05-09",
+            "chapters": "222-226",
+            "episodes": "125-126"
+        },
+        "45 - The Swordless Soldier.mkv":
+        {
+            "season": 3,
+            "episode": 10,
+            "absolute_episode": 45,
+            "title": "The Swordless Soldier",
+            "summary": "As everyone around her prepares for war, Orihime wishes to get stronger too.",
+            "original_airdate": "2007-05-30",
+            "chapters": "227-229",
+            "episodes": "127"
+        },
+        "46 - The Mascaron Drive.mkv":
+        {
+            "season": 3,
+            "episode": 11,
+            "absolute_episode": 46,
+            "title": "The Mascaron Drive",
+            "summary": "The arrancar invade Karakura yet again, much earlier than the Soul Society expected.",
+            "original_airdate": "2007-08-29",
+            "chapters": "229-234",
+            "episodes": "138-139"
+        },
+        "47 - goodbye, halcyon days. .mkv":
+        {
+            "season": 3,
+            "episode": 12,
+            "absolute_episode": 47,
+            "title": "goodbye, halcyon days.",
+            "summary": "Ulquiorra gives Orihime an ultimatum: Let all of her friends die by the arrancar’s hands, or say goodbye to her halcyon days.",
+            "original_airdate": "2007-09-12",
+            "chapters": "234-237",
+            "episodes": "140-141"
+        },
+        "48 - Eagle Without Wings.mkv":
+        {
+            "season": 3,
+            "episode": 13,
+            "absolute_episode": 48,
+            "title": "Eagle Without Wings",
+            "summary": "Orihime has been abducted. The Hitsugaya Advance Team is told they cannot go rescue her. Ichigo prepares anyway.",
+            "original_airdate": "2007-09-26",
+            "chapters": "238-241",
+            "episodes": "142-143"
+        },
+        "49 - Winged Eagles.mkv":
+        {
+            "season": 3,
+            "episode": 14,
+            "absolute_episode": 49,
+            "title": "Winged Eagles",
+            "summary": "Ichigo, Uryu, and Chad enter Hueco Mundo to take back Orihime, but quickly get into a fight. Now it’s Uryu and Chad’s turn to show off.",
+            "original_airdate": "2007-10-17",
+            "chapters": "241-245",
+            "episodes": "144-145"
+        },
+        "50 - United on the Desert.mkv":
+        {
+            "season": 3,
+            "episode": 15,
+            "absolute_episode": 50,
+            "title": "United on the Desert",
+            "summary": "In the desert of Hueco Mundo, Ichigo’s group finds unexpected allies.",
+            "original_airdate": "2007-10-24",
+            "chapters": "246-250",
+            "episodes": "145-146, 149-151"
+        },
+        "51 - Baron's Lecture Full-Course.mkv":
+        {
+            "season": 3,
+            "episode": 16,
+            "absolute_episode": 51,
+            "title": "Baron's Lecture Full-Course",
+            "summary": "Ichigo gets his first taste of an espada battle in Hueco Mundo! Dordoni teaches him things won’t be as easy for the niño as he might think.",
+            "original_airdate": "2007-12-05",
+            "chapters": "251-254",
+            "episodes": "151-153"
+        },
+        "52 - The Slashing Opera.mkv":
+        {
+            "season": 3,
+            "episode": 17,
+            "absolute_episode": 52,
+            "title": "The Slashing Opera",
+            "summary": "Uryu faces off against a privaron espada of his own! Sneaking around in the shadows is an unexpected combatant…",
+            "original_airdate": "2007-12-19",
+            "chapters": "254-259",
+            "episodes": "153, 156-157"
+        },
+        "53 - Arms of the Giant.mkv":
+        {
+            "season": 3,
+            "episode": 18,
+            "absolute_episode": 53,
+            "title": "Arms of the Giant",
+            "summary": "Chad learns more about his power and comes across an espada-level opponent.",
+            "original_airdate": "2008-01-23",
+            "chapters": "259-263",
+            "episodes": "157-159"
+        },
+        "54 - There is No Heart Without You.mkv":
+        {
+            "season": 3,
+            "episode": 19,
+            "absolute_episode": 54,
+            "title": "There is No Heart Without You",
+            "summary": "Rukia comes face-to-face with an espada and is forced to come to grips with her trauma.",
+            "original_airdate": "2008-02-13",
+            "chapters": "262-269",
+            "episodes": "153-155, 160"
+        },
+        "55 - Don't Kill My Volupture.mkv":
+        {
+            "season": 3,
+            "episode": 20,
+            "absolute_episode": 55,
+            "title": "Don't Kill My Volupture",
+            "summary": "Renji falls into the palm of the octavo espada’s hands. Everyone senses the end of Rukia and Aaroniero’s battle.",
+            "original_airdate": "2008-02-20",
+            "chapters": "264-265, 269-272",
+            "episodes": "159, 161-162"
+        },
+        "56 - The Monster.mkv":
+        {
+            "season": 3,
+            "episode": 21,
+            "absolute_episode": 56,
+            "title": "The Monster",
+            "summary": "Orihime has an encounter with some arrancar. Uryu and Renji team up to fight Szayelaporro.",
+            "original_airdate": "2008-03-05",
+            "chapters": "272-278",
+            "episodes": "163-165"
+        },
+        "Hollowed Bleach SP01 - Memories of Nobody.mkv":
+        {
+            "season": 0,
+            "episode": 10,
+            "absolute_episode": "SP01",
+            "title": "Memories of Nobody",
+            "summary": "After unidentified beings known as \"Blanks\" start popping up, they are soon followed by a Soul Reaper named Senna who makes them disappear. Puzzled by these unknown beings and the even more mysterious girl, Ichigo and Rukia set out to learn more, but uncover an evil plot when a menacing clan tries to kidnap Senna.",
+            "original_airdate": "2006-12-16",
+            "chapters": "N/A",
+            "episodes": "Movie 01"
+        },
+        "Hollowed Bleach SP02 - Forest of Menos.mkv":
+        {
+            "season": 0,
+            "episode": 3,
+            "absolute_episode": "SP02",
+            "title": "Forest of Menos",
+            "summary": "",
+            "original_airdate": "2007-11-07",
+            "chapters": "Filler / 247",
+            "episodes": "147-149"
+        },
+        "Hollowed Bleach 20 - Jugulators.mp4":
+        {
+            "season": 3,
+            "episode": 50,
+            "absolute_episode": 20,
+            "title": "Jugulators",
+            "summary": "",
+            "original_airdate": "2008-03-12",
+            "chapters": "279-282",
+            "episodes": "164-166"
+        },
+        "Hollowed Bleach 21 - Howling.mp4":
+        {
+            "season": 3,
+            "episode": 51,
+            "absolute_episode": 21,
+            "title": "Howling",
+            "summary": "",
+            "original_airdate": "2008-04-09",
+            "chapters": "282-286",
+            "episodes": "166-167"
+        },
+        "Hollowed Bleach 22 - THE BAD JOKE.mp4":
+        {
+            "season": 3,
+            "episode": 52,
+            "absolute_episode": 22,
+            "title": "THE BAD JOKE",
+            "summary": "",
+            "original_airdate": "2008-10-14",
+            "chapters": "286-292",
+            "episodes": "190-192"
+        },
+        "Hollowed Bleach 23 - King of the Kill.mp4":
+        {
+            "season": 3,
+            "episode": 53,
+            "absolute_episode": 23,
+            "title": "King of the Kill",
+            "summary": "",
+            "original_airdate": "2008-11-04",
+            "chapters": "292-297",
+            "episodes": "193-195"
+        },
+        "Hollowed Bleach 24 - INTRUDERZ.mp4":
+        {
+            "season": 3,
+            "episode": 54,
+            "absolute_episode": 24,
+            "title": "INTRUDERZ",
+            "summary": "",
+            "original_airdate": "2008-11-25",
+            "chapters": "298-303",
+            "episodes": "196-198"
+        },
+        "Hollowed Bleach 25 - Not Perfect is GOoD.mp4":
+        {
+            "season": 3,
+            "episode": 55,
+            "absolute_episode": 25,
+            "title": "Not Perfect is GOoD",
+            "summary": "",
+            "original_airdate": "2008-12-16",
+            "chapters": "304-308",
+            "episodes": "199-201"
+        },
+        "Hollowed Bleach 26 - TO CLOSE YOUR WORLD.mp4":
+        {
+            "season": 3,
+            "episode": 56,
+            "absolute_episode": 26,
+            "title": "TO CLOSE YOUR WORLD",
+            "summary": "",
+            "original_airdate": "2009-01-06",
+            "chapters": "309-315",
+            "episodes": "201-203"
+        },
+        "Hollowed Bleach 27 - Turn Back the Pendulum.mp4":
+        {
+            "season": 3,
+            "episode": 57,
+            "absolute_episode": 27,
+            "title": "Turn Back The Pendulum",
+            "summary": "",
+            "original_airdate": "2009-02-10",
+            "chapters": "-108 to -104",
+            "episodes": "206-208"
+        },
+        "Hollowed Bleach 28 - The Pendulum Keeps Swinging.mp4":
+        {
+            "season": 3,
+            "episode": 58,
+            "absolute_episode": 28,
+            "title": "The Pendulum Keeps Swinging",
+            "summary": "",
+            "original_airdate": "2009-03-03",
+            "chapters": "-104 to -101",
+            "episodes": "209-210"
+        },
+        "Hollowed Bleach 29 - Let Stop the Pendulum.mp4":
+        {
+            "season": 3,
+            "episode": 59,
+            "absolute_episode": 29,
+            "title": "Let Stop the Pendulum",
+            "summary": "",
+            "original_airdate": "2009-03-17",
+            "chapters": "-100 to -97",
+            "episodes": "211-212"
+        },
+        "Hollowed Bleach 29.5 (0.8) - a wonderful error.mp4":
+        {
+            "season": 0,
+            "episode": 4,
+            "absolute_episode": 0.8,
+            "title": "a wonderful error",
+            "summary": "",
+            "original_airdate": "2009-03-31",
+            "chapters": "0.8",
+            "episodes": "227"
+        },
+        "Hollowed Bleach 30 - Six Hearts WIll Beat As One.mp4":
+        {
+            "season": 3,
+            "episode": 61,
+            "absolute_episode": 30,
+            "title": "Six Hearts Will Beat as One",
+            "summary": "",
+            "original_airdate": "2009-04-14",
+            "chapters": "316-319",
+            "episodes": "215-216"
+        },
+        "Hollowed Bleach 31 - Ants & Dragons.mp4":
+        {
+            "season": 3,
+            "episode": 62,
+            "absolute_episode": 31,
+            "title": "Ants & Dragons",
+            "summary": "",
+            "original_airdate": "2009-04-28",
+            "chapters": "320-324",
+            "episodes": "217-218"
+        },
+        "Hollowed Bleach 32 - Knockdown Monsters.mp4":
+        {
+            "season": 3,
+            "episode": 63,
+            "absolute_episode": 32,
+            "title": "Knockdown Monsters",
+            "summary": "",
+            "original_airdate": "2009-05-12",
+            "chapters": "324-329",
+            "episodes": "219-221"
+        },
+        "Hollowed Bleach 33 - Stingy Stinger.mp4":
+        {
+            "season": 3,
+            "episode": 64,
+            "absolute_episode": 33,
+            "title": "Stingy Stinger",
+            "summary": "",
+            "original_airdate": "2009-05-26",
+            "chapters": "330-333",
+            "episodes": "221-223"
+        },
+        "Hollowed Bleach 34 - The Deathbringer Numbers.mp4":
+        {
+            "season": 3,
+            "episode": 65,
+            "absolute_episode": 34,
+            "title": "The Deathbringer Numbers",
+            "summary": "",
+            "original_airdate": "2009-06-16",
+            "chapters": "333-339",
+            "episodes": "224-226"
+        },
+        "Hollowed Bleach 35 - The Sin.mp4":
+        {
+            "season": 3,
+            "episode": 66,
+            "absolute_episode": 35,
+            "title": "The Sin",
+            "summary": "",
+            "original_airdate": "2010-04-20",
+            "chapters": "340-345",
+            "episodes": "267-269"
+        },
+        "Hollowed Bleach 36 - heart.mp4":
+        {
+            "season": 3,
+            "episode": 67,
+            "absolute_episode": 36,
+            "title": "heart",
+            "summary": "",
+            "original_airdate": "2010-05-11",
+            "chapters": "346-354",
+            "episodes": "270-272"
+        },
+        "Hollowed Bleach 37 - Tyrant of Skulls.mp4":
+        {
+            "season": 3,
+            "episode": 68,
+            "absolute_episode": 37,
+            "title": "Tyrant of Skulls",
+            "summary": "",
+            "original_airdate": "2010-06-01",
+            "chapters": "354-359, -16",
+            "episodes": "273-277, 239"
+        },
+        "Hollowed Bleach 38 - Grinning Revengers.mp4":
+        {
+            "season": 3,
+            "episode": 69,
+            "absolute_episode": 38,
+            "title": "Grinning Revengers",
+            "summary": "",
+            "original_airdate": "2010-06-22",
+            "chapters": "359-364",
+            "episodes": "276-278"
+        },
+        "Hollowed Bleach 39 - Spit On Your Own God.mp4":
+        {
+            "season": 3,
+            "episode": 70,
+            "absolute_episode": 39,
+            "title": "Spit On Your Own God",
+            "summary": "",
+            "original_airdate": "2010-07-13",
+            "chapters": "365-371",
+            "episodes": "279-281"
+        },
+        "Hollowed Bleach 40 - Wolves Ain't Howl Alone.mp4":
+        {
+            "season": 3,
+            "episode": 71,
+            "absolute_episode": 40,
+            "title": "Wolves Ain't Howl Alone",
+            "summary": "",
+            "original_airdate": "2010-08-03",
+            "chapters": "372-375",
+            "episodes": "282-283"
+        },
+        "Hollowed Bleach 41 - EXecution, EXtinction.mp4":
+        {
+            "season": 3,
+            "episode": 72,
+            "absolute_episode": 41,
+            "title": "EXecution, EXtinction",
+            "summary": "",
+            "original_airdate": "2010-08-10",
+            "chapters": "375-377",
+            "episodes": "283-285"
+        },
+        "Hollowed Bleach 42 - Devil, Devil, Devil, Devil.mp4":
+        {
+            "season": 3,
+            "episode": 73,
+            "absolute_episode": 42,
+            "title": "Devil, Devil, Devil, Devil",
+            "summary": "",
+            "original_airdate": "2010-08-31",
+            "chapters": "378-383",
+            "episodes": "286, 288-289"
+        },
+        "Hollowed Bleach 43 - Vice It.mp4":
+        {
+            "season": 3,
+            "episode": 74,
+            "absolute_episode": 43,
+            "title": "Vice It",
+            "summary": "",
+            "original_airdate": "2010-09-21",
+            "chapters": "383-387",
+            "episodes": "289-291"
+        },
+        "Hollowed Bleach 44 - The Burnout Inferno.mp4":
+        {
+            "season": 3,
+            "episode": 75,
+            "absolute_episode": 44,
+            "title": "The Burnout Inferno",
+            "summary": "",
+            "original_airdate": "2010-10-12",
+            "chapters": "388-395",
+            "episodes": "292-294"
+        },
+        "Hollowed Bleach 45 - DEICIDE.mp4":
+        {
+            "season": 3,
+            "episode": 76,
+            "absolute_episode": 45,
+            "title": "DEICIDE",
+            "summary": "",
+            "original_airdate": "2010-11-02",
+            "chapters": "396-401",
+            "episodes": "295-297"
+        },
+        "Hollowed Bleach 46 - DEICIDE 2 [End of the Chrysalis Age].mp4":
+        {
+            "season": 3,
+            "episode": 77,
+            "absolute_episode": 46,
+            "title": "DEICIDE 2 (End of the Chrysalis Age)",
+            "summary": "",
+            "original_airdate": "2010-12-07",
+            "chapters": "402-407",
+            "episodes": "300-301"
+        },
+        "Hollowed Bleach 47 - DEICIDE 3 [Black + White].mp4":
+        {
+            "season": 3,
+            "episode": 78,
+            "absolute_episode": 47,
+            "title": "DEICIDE 3 (Black + White)",
+            "summary": "",
+            "original_airdate": "2010-12-21",
+            "chapters": "408-411",
+            "episodes": "302, 306"
+        },
+        "Hollowed Bleach 48 - DEICIDE 4 [THE END].mp4":
+        {
+            "season": 3,
+            "episode": 79,
+            "absolute_episode": 48,
+            "title": "DEICIDE 4 (THE END)",
+            "summary": "",
+            "original_airdate": "2011-01-25",
+            "chapters": "412-416",
+            "episodes": "306-308"
+        },
+        "Hollowed Bleach 49 - DEICIDE 5 [GOD IS DEAD].mp4":
+        {
+            "season": 3,
+            "episode": 80,
+            "absolute_episode": 49,
+            "title": "DEICIDE 5 (GOD IS DEAD)",
+            "summary": "",
+            "original_airdate": "2011-02-08",
+            "chapters": "417-421",
+            "episodes": "308-309"
+        },
+        "Hollowed Bleach 50 - Bleach My Soul.mp4":
+        {
+            "season": 3,
+            "episode": 81,
+            "absolute_episode": 50,
+            "title": "Bleach My Soul",
+            "summary": "",
+            "original_airdate": "2011-02-22",
+            "chapters": "422-423",
+            "episodes": "310, 342"
+        },
+        "Hollowed Bleach 50 EX - Bleach My Soul.mp4":
+        {
+            "season": 3,
+            "episode": 81,
+            "absolute_episode": 50,
+            "title": "Bleach My Soul",
+            "summary": "",
+            "original_airdate": "2011-02-22",
+            "chapters": "422-423",
+            "episodes": "310, 342"
+        },
+        "Hollowed Bleach 51 - The Lost Agent.mkv":
+        {
+            "season": 4,
+            "episode": 1,
+            "absolute_episode": 51,
+            "title": "The Lost Agent",
+            "summary": "",
+            "original_airdate": "2011-10-11",
+            "chapters": "424-427",
+            "episodes": "343-344"
+        },
+        "Hollowed Bleach 52 - Welcome to our EXECUTION.mkv":
+        {
+            "season": 4,
+            "episode": 2,
+            "absolute_episode": 52,
+            "title": "Welcome to our EXECUTION",
+            "summary": "",
+            "original_airdate": "2011-10-25",
+            "chapters": "428-431",
+            "episodes": "344-346"
+        },
+        "Hollowed Bleach 53 - BERRY IN THE BOX.mkv":
+        {
+            "season": 4,
+            "episode": 3,
+            "absolute_episode": 53,
+            "title": "BERRY IN THE BOX",
+            "summary": "",
+            "original_airdate": "2011-11-01",
+            "chapters": "432-438",
+            "episodes": "346-349"
+        },
+        "Hollowed Bleach 54 - Mute Friendship.mkv":
+        {
+            "season": 4,
+            "episode": 4,
+            "absolute_episode": 54,
+            "title": "Mute Friendship",
+            "summary": "",
+            "original_airdate": "2011-11-22",
+            "chapters": "438-441",
+            "episodes": "349-350"
+        },
+        "Hollowed Bleach 55 - The Rising.mkv":
+        {
+            "season": 4,
+            "episode": 5,
+            "absolute_episode": 55,
+            "title": "The Rising",
+            "summary": "",
+            "original_airdate": "2011-12-06",
+            "chapters": "441-444",
+            "episodes": "351-352"
+        },
+        "Hollowed Bleach 56 - The Dark Beat.mkv":
+        {
+            "season": 4,
+            "episode": 6,
+            "absolute_episode": 56,
+            "title": "The Dark Beat",
+            "summary": "",
+            "original_airdate": "2011-12-20",
+            "chapters": "445-448",
+            "episodes": "353-354"
+        },
+        "Hollowed Bleach 57 -  Welcome to our EXECUTION 2.mkv":
+        {
+            "season": 4,
+            "episode": 7,
+            "absolute_episode": 57,
+            "title": " Welcome to our EXECUTION 2",
+            "summary": "",
+            "original_airdate": "2012-01-17",
+            "chapters": "448-451",
+            "episodes": "356"
+        },
+        "Hollowed Bleach 58 - End of Bond.mkv":
+        {
+            "season": 4,
+            "episode": 8,
+            "absolute_episode": 58,
+            "title": "End of Bond",
+            "summary": "",
+            "original_airdate": "2012-01-24",
+            "chapters": "452-456",
+            "episodes": "357-360"
+        },
+        "Hollowed Bleach 59 - Death & Strawberry 2.mkv":
+        {
+            "season": 4,
+            "episode": 9,
+            "absolute_episode": 59,
+            "title": "Death & Strawberry 2",
+            "summary": "",
+            "original_airdate": "2012-02-14",
+            "chapters": "456-459",
+            "episodes": "360-361"
+        },
+        "Hollowed Bleach 60 - The Deathberry Returns 2.mkv":
+        {
+            "season": 4,
+            "episode": 10,
+            "absolute_episode": 60,
+            "title": "The Deathberry Returns 2",
+            "summary": "",
+            "original_airdate": "2012-02-21",
+            "chapters": "460-463",
+            "episodes": "361-362"
+        },
+        "Hollowed Bleach 61 - Pray for Predators.mkv":
+        {
+            "season": 4,
+            "episode": 11,
+            "absolute_episode": 61,
+            "title": "Pray for Predators",
+            "summary": "",
+            "original_airdate": "2012-03-06",
+            "chapters": "464-473",
+            "episodes": "363-365"
+        },
+        "Hollowed Bleach 62 - Goodbye to Our Xcution.mkv":
+        {
+            "season": 4,
+            "episode": 12,
+            "absolute_episode": 62,
+            "title": "Goodbye to Our Xcution",
+            "summary": "",
+            "original_airdate": "2012-03-20",
+            "chapters": "470, 473-479",
+            "episodes": "365-366"
+        },
+        "Hollowed Bleach 62 EX - Goodbye to Our Xcution.mkv":
+        {
+            "season": 4,
+            "episode": 12,
+            "absolute_episode": 62,
+            "title": "Goodbye to Our Xcution",
+            "summary": "",
+            "original_airdate": "2012-03-20",
+            "chapters": "470, 473-479",
+            "episodes": "365-366"
+        }
+    },
+    "tybw": [
+        {
+            "title": "THE BLOOD WARFARE",
+            "summary": "The Soul Society’s Department of Research & Development is observing a sudden surge in the number of Hollows being destroyed in the World of the Living, raising concerns among staff.",
+            "chapters": "480-484",
+            "original_airdate": "2022-10-11"
+        },
+        {
+            "title": "FOUNDATION STONES",
+            "summary": "Arrancars Nel Tu and Pesche Guatiche have come to seek Ichigo’s help explaining that Hueco Mundo is under attack by an unknown enemy. Unable to ignore the situation, Ichigo and his friends decide to set out for Hueco Mundo.",
+            "chapters": "485-488",
+            "original_airdate": "2022-10-18"
+        },
+        {
+            "title": "MARCH OF THE STARCROSS",
+            "summary": "Ichigo and his friends arrive in Hueco Mundo to confront Quilge Opie and learn that their latest enemy are Quincies.",
+            "chapters": "488-494",
+            "original_airdate": "2022-10-25"
+        },
+        {
+            "title": "KILL THE SHADOW",
+            "summary": "The Wandenreich mobilizes its elite force, the Stern Ritter, to annihilate the Soul Society. Creating massive flaming pillars of Reishi as a distraction, the Stern Ritter easily enter the Soul Society to bring carnage to the Soul Reapers.",
+            "chapters": "494-499",
+            "original_airdate": "2022-11-01"
+        },
+        {
+            "title": "WRATH AS A LIGHTNING",
+            "summary": "Quilge Opie uses his power to imprison Ichigo inside the Garganta. As he tries to break free, Ichigo begins to hear, through his Soul Phone, the screams of the Soul Reapers falling to the enemy's onslaught.",
+            "chapters": "500-505",
+            "original_airdate": "2022-11-08"
+        },
+        {
+            "title": "THE FIRE",
+            "summary": "Shigekuni Genryusai Yamamoto confronts Yhwach for the first time in a thousand years. As Yhwach finally draws his sword against Genryusai, the Soul Reapers notice an abnormal change taking place across the Seireitei.",
+            "chapters": "506-510",
+            "original_airdate": "2022-11-15"
+        },
+        {
+            "title": "BORN IN THE DARK",
+            "summary": "Shigekuni Genryusai Yamamoto learns that the Yhwach he defeated was an impostor. The real Yhwach then reveals himself and easily kills Genryusai, sending a wave of shock and devastation across the Soul Reapers.",
+            "chapters": "511-514",
+            "original_airdate": "2022-11-22"
+        },
+        {
+            "title": "THE SHOOTING STAR PROJECT [ZERO MIX]",
+            "summary": "Rescue efforts are being made across the Seireitei to find and help those who've survived the Stern Ritter attack. Meanwhile, Ichigo meets with Mayuri Kurotsuchi about fixing his broken Tensa Zangetsu.",
+            "chapters": "515-519",
+            "original_airdate": "2022-11-29"
+        },
+        {
+            "title": "THE DROP",
+            "summary": "Squad Zero brings Ichigo back to the Royal Palace to prepare for the coming battle. Meanwhile, Kyoraku is appointed as the new Head Captain to lead the Thirteen Court Guard Squads.",
+            "chapters": "520-521, 523-524",
+            "original_airdate": "2022-12-06"
+        },
+        {
+            "title": "THE BATTLE",
+            "summary": "Kenpachi Zaraki removes his eye patch to fight Retsu Unohana, a.k.a. Yachiru Unohana, “The First Kenpachi.” Meanwhile, Ichigo and Renji head to Hoohden to meet Oh-Etsu Nimaiya, the man who is said to have created the Zanpakuto.",
+            "chapters": "522, 523, 525-528",
+            "original_airdate": "2022-12-13"
+        },
+        {
+            "title": "EVERYTHING BUT THE RAIN",
+            "summary": "Ichigo is kicked out of the Royal Palace by Oh-etsu Nimaiya for failing his test. When Ichigo next opens his eyes, he finds himself standing in front of his house in the World of the Living.",
+            "chapters": "528-533",
+            "original_airdate": "2022-12-20"
+        },
+        {
+            "title": "EVERYTHING BUT THE RAIN JUNE TRUTH",
+            "summary": "Squad 10 Captain Isshin Shiba of the Thirteen Court Guard Squads decides to not report his encounter with the Quincy named Masaki Kurosaki in the World of the Living to the Head Captain.",
+            "chapters": "533-537",
+            "original_airdate": "2022-12-27"
+        },
+        {
+            "title": "THE BLADE IS ME",
+            "summary": "Ichigo learns that he is the child born of a Soul Reaper and a Quincy. Finally understanding the truth behind his heritage, Ichigo decides to return to Hoohden with a renewed resolve to finish what he has started.",
+            "chapters": "537-542",
+            "original_airdate": "2022-12-27"
+        },
+        {
+            "title": "THE LAST 9 DAYS",
+            "summary": "Ichigo prepares to leave the Royal Palace to return to the Seireitei but is stopped by Hyosube, who claims that Ichigo cannot defeat Yhwach as he is now.",
+            "chapters": "542-546, 565",
+            "original_airdate": "2023-07-08"
+        },
+        {
+            "title": "PEACE FROM SHADOWS",
+            "summary": "Yhwach sets his plan to end the world in nine days in motion by pulling the Seireitei into the Schatten Bereich for the Stern Ritter to invade.",
+            "chapters": "547-551",
+            "original_airdate": "2023-07-15"
+        },
+        {
+            "title": "THE FUNDAMENTAL VIRULENCE",
+            "summary": "Mayuri receives a call from Urahara, who had stayed behind in Hueco Mundo to search for a way to reclaim everyone’s stolen Bankai. Urahara claims that he was able to come up with a solution based on the data gained from his earlier battle with Quilge.",
+            "chapters": "552-554, 559",
+            "original_airdate": "2023-07-22"
+        },
+        {
+            "title": "HEART OF WOLF",
+            "summary": "The tides of battle seemed to have turned after the captains reclaimed their stolen Bankai. However, the Stern Ritters release their Quincy Voll Stern Dich to drive the Soul Reapers deeper into a corner.",
+            "chapters": "555-560",
+            "original_airdate": "2023-07-29"
+        },
+        {
+            "title": "RAGES AT RINGSIDE",
+            "summary": "Kensei Muguruma joins the battle against Masculine, who has already defeated Shuhei Hisagi, Ikkaku Madarame, and Yumichika Ayasegawa. However, Kensei is taken aback by how weak his opponent is.",
+            "chapters": "560-565",
+            "original_airdate": "2023-08-05"
+        },
+        {
+            "title": "THE WHITE HAZE",
+            "summary": "A fearless Rukia swings her Sodenoshirayuki in battle as she takes on Äs Nödt.",
+            "chapters": "554-555, 559, 565-570",
+            "original_airdate": "2023-08-12"
+        },
+        {
+            "title": "I AM THE EDGE",
+            "summary": "Isane and Yachiru are treating the wounded Kensei and Rojuro when they are attacked by Gwenael, a Quincy who not only possesses the ability to disappear physically but can also erase his existence from the memory of his opponents.",
+            "chapters": "571-579",
+            "original_airdate": "2023-08-19"
+        },
+        {
+            "title": "THE HEADLESS STAR",
+            "summary": "Kenpachi defeats Gremmy, but his moment of victory is cut short when he is suddenly struck by Candice’s thunderbolt attack. Meninas, Giselle, and Liltotto also join Candice to take down Kenpachi, who is considered to be a Special Threat.",
+            "chapters": "565, 579-586",
+            "original_airdate": "2023-08-26"
+        },
+        {
+            "title": "MARCHING OUT THE ZOMBIES",
+            "summary": "Ichigo and the Soul Reapers try to stop Yhwach upon learning that his real target lies within the Royal Palace. However, their efforts are thwarted by Uryu, who stands in Ichigo’s way in order to allow Yhwach safe passage to the Royal Palace.",
+            "chapters": "587-591",
+            "original_airdate": "2023-09-09"
+        },
+        {
+            "title": "MARCHING OUT THE ZOMBIES 2",
+            "summary": "Ikkaku, Yumichika, and the Arrancars work together to fight off Giselle’s zombies. But the group is shocked when Giselle reveals her next pawn, who is none other than Captain Hitsugaya of Squad 10.",
+            "chapters": "587, 588, 592-597",
+            "original_airdate": "2023-09-16"
+        },
+        {
+            "title": "TOO EARLY TO WIN TOO LATE TO KNOW",
+            "summary": "Yhwach finally steps through the main entrance of the Royal Palace. Accompanied by Haschwalth and Uryu, the Quincy King is preparing to advance toward the Greater Palace when they are stopped by Senjumaru Shutara of Squad Zero.",
+            "chapters": "588, 597-601, 604",
+            "original_airdate": "2023-09-23"
+        },
+        {
+            "title": "THE MASTER",
+            "summary": "Yhwach escapes from the cage surrounding Squad Zero's fake Royal Palace to confront Hyosube, who is protecting the real Royal Palace.",
+            "chapters": "601-606",
+            "original_airdate": "2023-09-30"
+        },
+        {
+            "title": "BLACK",
+            "summary": "Yhwach performs Auswählen to bestow power to his fallen Royal Guards and activate their Voll Stern Dich forms. What follows is a fierce battle between the Royal Guards and Squad Zero.",
+            "chapters": "604, 607-609",
+            "original_airdate": "2023-09-30"
+        },
+        {
+            "title": "A",
+            "summary": "The battle between Squad Zero and Yhwach's Royal Guards for the Soul King rages on.",
+            "chapters": "608-611",
+            "original_airdate": "2024-10-05"
+        },
+        {
+            "title": "KILL THE KING",
+            "summary": "Ichigo and his friends hurry to the Reio Greater Palace to stop Yhwach.",
+            "chapters": "612-617, 619",
+            "original_airdate": "2024-10-12"
+        },
+        {
+            "title": "THE DARK ARM",
+            "summary": "Ichigo tries to remove the impaled sword from the Soul King and save his life.",
+            "chapters": "615-616, 617-618",
+            "original_airdate": "2024-10-19"
+        },
+        {
+            "title": "THE BETRAYER",
+            "summary": "Ukitake takes the place of the slain Soul King by releasing the power of Mimihagi.",
+            "chapters": "617-620, 625",
+            "original_airdate": "2024-10-26"
+        },
+        {
+            "title": "AGAINST THE JUDGEMENT",
+            "summary": "Yhwach is overflowing with power from having absorbed the Soul King.",
+            "chapters": "612-614, 621-626",
+            "original_airdate": "2024-11-02"
+        },
+        {
+            "title": "THE HOLY NEWBORN",
+            "summary": "The Soul Reapers regroup to prepare their counterattack against the Quincies.",
+            "chapters": "613, 617, 625-629",
+            "original_airdate": "2024-11-09"
+        },
+        {
+            "title": "GATE OF THE SUN",
+            "summary": "Yhwach builds his new castle, Wahr Welt.",
+            "chapters": "629-630, 635",
+            "original_airdate": "2024-11-16"
+        },
+        {
+            "title": "BABY, HOLD YOUR HAND",
+            "summary": "Kenpachi and Mayuri's group advance through Vier Ast.",
+            "chapters": "635-640",
+            "original_airdate": "2024-11-23"
+        },
+        {
+            "title": "DON'T CHASE A SHADOW",
+            "summary": "The change in Mayuri's Spiritual Pressure is also felt elsewhere by Urahara and Kyoraku.",
+            "chapters": "644-649",
+            "original_airdate": "2024-11-30"
+        },
+        {
+            "title": "BABY,HOLD YOUR HAND 2 [NEVER ENDING MY DREAM]",
+            "summary": "Nemu ignores Mayuri's orders by intervening in his battle against Pernida.",
+            "chapters": "630, 640-644",
+            "original_airdate": "2024-12-07"
+        },
+        {
+            "title": "SHADOWS GONE",
+            "summary": "Lille undergoes further transformation to hunt down and pass judgment on Kyoraku.",
+            "chapters": "649-654",
+            "original_airdate": "2024-12-14"
+        },
+        {
+            "title": "FRIEND",
+            "summary": "Haschwalth finds himself confronted by Bazz-B.",
+            "chapters": "630-634",
+            "original_airdate": "2024-12-21"
+        },
+        {
+            "title": "THE VISIBLE ANSWER",
+            "summary": "Kyoraku has paved the way for the Soul Reapers to reach the enemy's stronghold.",
+            "chapters": "615, 647, 654-659",
+            "original_airdate": "2024-12-28"
+        },
+        {
+            "title": "MY LAST WORDS",
+            "summary": "Haschwalth suddenly attacks Uryu to pass judgment.",
+            "chapters": "635, 654, 569-661, 674",
+            "original_airdate": "2024-12-28"
+        }
+    ]
+}
