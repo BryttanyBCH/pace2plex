@@ -61,7 +61,8 @@ def main():
         print(f"1. Dry run status: {'yes' if dry_run is True else 'no'}. Dry run means no actual files or Plex metadata wil be modified. Only example output will be shown.")
         print('2. Manage One Pace')
         print('3. Manage Concentrated Bleach')
-        print("4. Delete configuration file. Useful if you've entered incorrect information and don't want to modify it by hand.")
+        print('4. Manage Naruto Resealed')
+        print("5. Delete configuration file. Useful if you've entered incorrect information and don't want to modify it by hand.")
         response = input("Option: ")
         clear_terminal()
         match response:
@@ -72,6 +73,8 @@ def main():
             case '3':
                 cb_menu()
             case '4':
+                nr_menu()
+            case '5':
                 delete_config()
             case _:
                 break
@@ -107,7 +110,9 @@ def pace_menu():
             case '6':
                 apply_onigashima_plex_metadata()
             case _:
-                main()
+                break
+
+    main()
 
 
 def cb_menu():
@@ -134,7 +139,32 @@ def cb_menu():
             case '4':
                 apply_tybw_metadata()
             case _:
-                main()
+                break
+
+    main()
+
+
+def nr_menu():
+    global SERIES_DATA
+    with open('series/naruto-resealed/series.json') as file:
+        SERIES_DATA = json.load(file)
+
+    while True:
+        clear_terminal()
+        print("Enter the option you'd like to use below. Enter any other key to cancel.")
+        print("1. Scan for and organize edited Naruto episodes.")
+        print("2. Apply edited Naruto episode metadata to Plex. Please only do this after you've verified that your edited episodes are present in your Plex server.")
+        response = input("Option: ")
+        clear_terminal()
+        match response:
+            case '1':
+                organize_files()
+            case '2':
+                apply_plex_metadata()
+            case _:
+                break
+
+    main()
 
 
 def ask_dry_run():
@@ -228,7 +258,7 @@ def apply_plex_metadata():
         if SERIES_DATA['series_match_type'] == 'season_episodes':
             metadata = resolve_metadata_from_episode_list(episode.seasonNumber, episode.episodeNumber)
         else:
-            metadata = resolve_metadata_from_episode(episode.seasonNumber, episode.episodeNumber)
+            _, metadata = resolve_metadata_from_episode(episode.seasonNumber, episode.episodeNumber)
 
         if metadata is None:
             if SERIES_DATA['name'] == 'One Pace' and episode.seasonNumber == SERIES_DATA['wano_season_number'] and episode.episodeNumber > len(SERIES_DATA['Wano']):

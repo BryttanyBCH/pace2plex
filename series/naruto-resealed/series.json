@@ -1,0 +1,145 @@
+{
+    "name": "Naruto Resealed",
+    "series_match_type": "absolute_episodes",
+    "abbreviation": "NS",
+    "seasons":
+    [
+        "Prologue",
+        "Land of Waves"
+    ],
+    "episodes":
+    {
+        "[Naruto Resealed] 001 Prologue [482CD94A].mkv":
+        {
+            "season": 1,
+            "episode": 1,
+            "absolute_episode": 1,
+            "title": "Uzumaki Naruto!!",
+            "summary": "Naruto, a ridiculed prankster child, is introduced as the main protagonist and we learn of his past.",
+            "original_airdate": "2002-10-03",
+            "chapters": "1",
+            "episodes": "1"
+        },
+        "[Naruto Resealed] 002 Prologue [4617F058].mkv":
+        {
+            "season": 1,
+            "episode": 2,
+            "absolute_episode": 2,
+            "title": "Konohamaru!!",
+            "summary": " Naruto meets a youth from the village named Konahamaru and deals with the boy's strict tutor.",
+            "original_airdate": "2002-10-10",
+            "chapters": "2",
+            "episodes": "2"
+        },
+        "[Naruto Resealed] 003 Prologue [CC5F854B].mkv":
+        {
+            "season": 1,
+            "episode": 3,
+            "absolute_episode": 3,
+            "title": "Uchiha Sasuke!!",
+            "summary": "Naruto joins a ninja squad with two other genin: his crush Sakura and his rival Sasuke.",
+            "original_airdate": "2002-10-17",
+            "chapters": "3",
+            "episodes": "3"
+        },
+        "[Naruto Resealed] 004 Prologue [43FC0C4B].mkv":
+        {
+            "season": 1,
+            "episode": 4,
+            "absolute_episode": 4,
+            "title": "Hatake Kakashi!!",
+            "summary": "Team Seven is assigned a squad leader named Kakashi, who puts Naruto, Sakura, and Sasuke through an intense survival exercise.",
+            "original_airdate": "2002-10-24",
+            "chapters": "4-8",
+            "episodes": "4-5"
+        },
+        "[Naruto Resealed] 005 Land of Waves [CA173270].mkv":
+        {
+            "season": 2,
+            "episode": 1,
+            "absolute_episode": 5,
+            "title": "Disembarking...!!",
+            "summary": "Team Seven is tasked with escorting a man named Tazuna to a bridge that is currently under construction.",
+            "original_airdate": "2002-11-07",
+            "chapters": "9-12",
+            "episodes": "6-7"
+        },
+        "[Naruto Resealed] 006 Land of Waves [292F51CF].mkv":
+        {
+            "season": 2,
+            "episode": 2,
+            "absolute_episode": 6,
+            "title": "The Sharingan Revived!!",
+            "summary": "The stakes are raised as an unknown assassin tries to take out Naruto’s squad.",
+            "original_airdate": "2002-11-14",
+            "chapters": "12-15",
+            "episodes": "7-9"
+        },
+        "[Naruto Resealed] 007 Land of Waves [711DFFAE].mkv":
+        {
+            "season": 2,
+            "episode": 3,
+            "absolute_episode": 7,
+            "title": "The Training Commences",
+            "summary": "Team Seven recovers at Tazuna's home to come up with a strategy to deal with the new situation. Meanwhile, Naruto and Sasuke continue their training.",
+            "original_airdate": "2002-11-28",
+            "chapters": "16-18",
+            "episodes": "9-10"
+        },
+        "[Naruto Resealed] 008 Land of Waves [CCBB7559].mkv":
+        {
+            "season": 2,
+            "episode": 4,
+            "absolute_episode": 8,
+            "title": "The Country that Had a Hero",
+            "summary": "Team seven learns more about Tazuna's village and why there are assassins coming after the bridge workers.",
+            "original_airdate": "2002-12-12",
+            "chapters": "19-20",
+            "episodes": "11"
+        },
+        "[Naruto Resealed] 009 Land of Waves [5A12CCE7].mkv":
+        {
+            "season": 2,
+            "episode": 5,
+            "absolute_episode": 9,
+            "title": "A Rival Appears!!",
+            "summary": "Naruto meets an herbalist with a difficult past during training. Elsewhere, Kakashi is preparing to return Tazuna to the bridge.",
+            "original_airdate": "2002-12-19",
+            "chapters": "21-22",
+            "episodes": "12"
+        },
+        "[Naruto Resealed] 010 Land of Waves [925664C0].mkv":
+        {
+            "season": 2,
+            "episode": 6,
+            "absolute_episode": 10,
+            "title": "For our Dreams...!!",
+            "summary": "The final confrontation on Tazuna's bridge begins.",
+            "original_airdate": "2002-12-26",
+            "chapters": "23-26",
+            "episodes": "13-15"
+        },
+        "[Naruto Resealed] 011 Land of Waves [34D77551].mkv":
+        {
+            "season": 2,
+            "episode": 7,
+            "absolute_episode": 11,
+            "title": "Awakening...!!",
+            "summary": "Naruto and Sasuke are trapped in Haku's Ice Mirror Jutsu as Kakashi rematches against Zabuza.",
+            "original_airdate": "2003-01-23",
+            "chapters": "26-29",
+            "episodes": "16-17"
+        },
+        "[Naruto Resealed] 012 Land of Waves [A05A453E].mkv":
+        {
+            "season": 2,
+            "episode": 8,
+            "absolute_episode": 12,
+            "title": "Important People...!!",
+            "summary": "The final battle concludes as Naruto learns more about what it truly means to be a Ninja.",
+            "original_airdate": "2003-01-30",
+            "chapters": "29-33",
+            "episodes": "17-19"
+        }
+    }
+}
