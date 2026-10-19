@@ -21,6 +21,7 @@ pace2plex is a simple and somewhat jank script that can be used to organize vari
 * Install the Plex API library for Python. Enter `pip install plexapi` into your command prompt/terminal.
 * Download the latest release [here](https://github.com/TommyB123/pace2plex/archive/refs/heads/main.zip).
 * Extract the zip file to a folder containing episodes of any covered series.
+* Open a command prompt/terminal window in the directory you extracted the script to and run the Python script. `python pace2plex.py`
 * Select your desired option in the terminal window.
     * The first time the script attempts to use the Plex API, you will be prompted to submit your Plex account information alongside the name of the media server your anime edits are on. Fill out the information to proceed.
 
