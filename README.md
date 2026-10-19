@@ -49,7 +49,7 @@ pace2plex is a simple and somewhat jank script that can be used to organize vari
 
 **Naruto Resealed**
 
-[Naruto Resealed Episode Titles](https://docs.google.com/spreadsheets/d/1mFsVCL7Jy5ZbZ3CrCZ-I6PAcJlNH06k9VG_vvSuK4H8/edit?gid=0#gid=0)
+[Naruto Resealed Episode Titles](https://docs.google.com/spreadsheets/d/1mFsVCL7Jy5ZbZ3CrCZ-I6PAcJlNH06k9VG_vvSuK4H8/edit?gid=0#gid=0)  
 Episode descriptions pulled from their Discord server.
 
 
