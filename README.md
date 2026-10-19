@@ -20,15 +20,14 @@ pace2plex is a simple and somewhat jank script that can be used to organize vari
 * Ensure the Python programming language is available on your system. If you don't have it, you can easily grab it through the [Microsoft Store](https://apps.microsoft.com/detail/9pnrbtzxmb4z)
 * Install the Plex API library for Python. Enter `pip install plexapi` into your command prompt/terminal.
 * Download the latest release [here](https://github.com/TommyB123/pace2plex/archive/refs/heads/main.zip).
-* Extract the zip file to a folder.
-    * If you intend to use the script to organize your One Pace episodes, you must place the script files in a directory that contains either the episodes or a child directory with the episodes.
+* Extract the zip file to a folder containing episodes of any covered series.
 * Select your desired option in the terminal window.
-    * The first time the script attempts to use the Plex API, you will be prompted to submit your Plex account information alongside the name of the media server you have One Pace on. Fill out the information to proceed.
+    * The first time the script attempts to use the Plex API, you will be prompted to submit your Plex account information alongside the name of the media server your anime edits are on. Fill out the information to proceed.
 
 # Benefits of this script
 * Very easy to update with new releases.
 * Hardlinks files when organizing into season folders, avoiding needless file duplication while also keeping original downloads intact.
-* Uses the Plex API to directly apply metadata to One Pace episode entries inside of Plex. This means that you can also use alternative One Pace-compatible edits like Muhn Pace if you're a dub watcher. Do note that this script is not written to organize other edits and can only apply metadata to edits that follow One Pace's episode structure. This also means that additional series parser plugins and etc not are needed.
+* Uses the Plex API to directly apply metadata to episode entries inside of Plex. 
 * Offers the ability to add the original air dates of the anime to each edited episode. This is nice for having the context of when the episodes were originally animated and ensures proper playback between seasons.
 * Avoids renaming files when possible.
 
