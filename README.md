@@ -1,7 +1,7 @@
 # pace2plex
 pace2plex is a simple and somewhat jank script that can be used to organize various fan edits of anime series for your Plex library. It offers the ability to organize your files into season folders appropriately, apply respective metadata through the Plex API, assign custom season posters, curated episode thumbnails and more.
 
-[Click here to download](https://github.com/TommyB123/pace2plex/archive/refs/heads/main.zip)
+[Click here to download](https://github.com/TommyB123/pace2plex/archive/refs/heads/master.zip)
 
 # What series are supported?
 **One Piece**
@@ -19,7 +19,7 @@ pace2plex is a simple and somewhat jank script that can be used to organize vari
 # How to use
 * Ensure the Python programming language is available on your system. If you don't have it, you can easily grab it through the [Microsoft Store](https://apps.microsoft.com/detail/9pnrbtzxmb4z)
 * Install the Plex API library for Python. Enter `pip install plexapi` into your command prompt/terminal.
-* Download the latest release [here](https://github.com/TommyB123/pace2plex/archive/refs/heads/main.zip).
+* Download the latest release [here](https://github.com/TommyB123/pace2plex/archive/refs/heads/master.zip).
 * Extract the zip file to a folder containing episodes of any covered series.
 * Open a command prompt/terminal window in the directory you extracted the script to and run the Python script. `python pace2plex.py`
 * Select your desired option in the terminal window.
