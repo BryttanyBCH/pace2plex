@@ -674,28 +674,17 @@
             "chapters": "Filler / 247",
             "episodes": "147-149"
         },
-        "Hollowed Bleach 20 - Jugulators.mp4":
-        {
-            "season": 3,
-            "episode": 50,
-            "absolute_episode": 20,
-            "title": "Jugulators",
-            "summary": "",
-            "original_airdate": "2008-03-12",
-            "chapters": "279-282",
-            "episodes": "164-166"
-        },
-        "Hollowed Bleach 21 - Howling.mp4":
-        {
+       "Hollowed Bleach v3 20 - Howling.mkv":
+       {
             "season": 3,
             "episode": 51,
-            "absolute_episode": 21,
+            "absolute_episode": 20,
             "title": "Howling",
             "summary": "",
-            "original_airdate": "2008-04-09",
-            "chapters": "282-286",
-            "episodes": "166-167"
-        },
+            "original_airdate": "2007-03-19",
+            "chapters": "278-286",
+            "episodes": "165-167"
+       },
         "Hollowed Bleach 22 - THE BAD JOKE.mp4":
         {
             "season": 3,
