@@ -7,6 +7,7 @@ from plexapi.server import PlexServer
 from plexapi.video import Show, Episode, Season
 from plexapi.base import MediaContainer
 from typing import List
+from datetime import datetime, date
 
 # plex account and server info
 PLEX_LOGIN = ''
@@ -464,10 +465,9 @@ def apply_metadata_to_episode(episode: Episode, metadata: dict):
         changed = True
         print(f"Applied episode summary to {episode.seasonEpisode.upper()}")
 
-    if metadata['original_airdate'] is None or len(metadata['original_airdate']) == 0:
-        return False
-
-    if episode.originallyAvailableAt is None or episode.originallyAvailableAt.strftime('%Y-%m-%d') != metadata['original_airdate']:
+    # apply original episode airdate
+    date_comp = datetime.combine(date.fromisoformat(metadata['original_airdate']), datetime.min.time())
+    if episode.originallyAvailableAt != date_comp:
         if dry_run is False:
             episode.editOriginallyAvailable(metadata['original_airdate'])
 
