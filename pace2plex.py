@@ -201,11 +201,7 @@ def organize_files():
                 if SERIES_DATA['name'] == 'One Pace' and 'special_episodes' in SERIES_DATA and file in SERIES_DATA['special_episodes']:
                     # special episodes blacklist & renaming for One Pace
                     special_ep_number = SERIES_DATA['special_episodes'][file]
-                    match = re.match(r'^(\[One Pace\](?:\[[^\]]+\])?\s*)(.*)$', file)
-                    if match is not None:
-                        final_name = f"{match.group(1)}S00E{special_ep_number}: {match.group(2)}"
-                    else:
-                        final_name = f"[One Pace] S00E{special_ep_number}: {file}"
+                    final_name = f'S00E{special_ep_number} - {file}'
                     print(f'Renaming special episode from {file} to {final_name}')
                     season_index = -1
                 else:
