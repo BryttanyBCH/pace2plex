@@ -274,8 +274,8 @@ def apply_plex_metadata():
     episodes_changed = 0
     episodes: Episode = series.episodes()
     for episode in episodes:
-        if episode.seasonNumber == 0 and SERIES_DATA['name'] != 'One Pace':
-            # skip specials for non-One Pace edits
+        if episode.seasonNumber == 0 and 'Specials' not in SERIES_DATA.get('seasons', []):
+            # skip specials for edits without specials configured
             continue
 
         if SERIES_DATA['series_match_type'] == 'season_episodes':
